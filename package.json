@@ -1,0 +1,24 @@
+{
+  "name": "snapchat-stories",
+  "version": "1.0.3",
+  "description": "Grabs all snaps from public stories, along with a bit of user info",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "snapchat",
+    "info",
+    "stories",
+    "sc"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camer0/snapchat-stories.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "snekfetch": "^4.0.4"
+  }
+}
