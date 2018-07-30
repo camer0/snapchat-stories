@@ -1,3 +1,5 @@
+Uses the snapchat storysharing api to asynchronously fetch snapchat stories and a bit of user information from **public** snapchat stories
+
 # Installing
 ```npm install snapchat-stories```
 
@@ -7,6 +9,7 @@ let snapchat = require('snapchat-stories')
 snapchat('djkhaled305').then((snapInfo) => {
     console.log(snapInfo)
 }).catch(e => console.log(e))
+//Returns an error if the user doesn't exist or doesn't have public stories enabled.
 ```
 Expected output:
 ```javascript
