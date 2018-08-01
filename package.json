@@ -1,6 +1,6 @@
 {
   "name": "snapchat-stories",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "description": "Grabs all snaps from public stories, along with a bit of user info",
   "main": "index.js",
   "scripts": {
@@ -19,6 +19,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "snekfetch": "^4.0.4"
+    "snekfetch": "^4.0.4",
+    "svg-to-img": "^2.0.7"
   }
 }
